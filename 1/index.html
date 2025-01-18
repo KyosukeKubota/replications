@@ -5,20 +5,17 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Profile(Copy)</title>
     
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
-    
+    <!-- Header -->
     <header class="header">
-        <!-- h1タグで表現したほうが良い -->
-        <a href="#" class="logo"><img src="./assets/images/logo.svg" alt="Profile"></a>
+         <h1 class="logo"><a href="#"><img src="./assets/images/logo.svg" alt="Profile"></a></h1>
         <nav>
             <a href="#about" class="header-item">About</a>
             <a href="#bicycle" class="header-item">Bicycle</a>
@@ -26,15 +23,15 @@
     </header>
 
     <div class="cover">
-        <img src="./assets/images/mainvisual.jpg" alt="Profileホーム" class="cover">
+        <img src="./assets/images/mainvisual.jpg" alt="Main visual of the profile homepage" class="cover">
     </div>
 
     <!-- About -->
-    <section class="section about" id="#about">
+    <section class="section about" id="about">
         <h1 class="section-heading">About</h1>
         <div class="about-body">
             <img class="about-img" src="./assets/images/about.jpg" alt="Profile image">
-            <div class="about-description">
+            <div class="about-item">
                 <h2>KAKERU MIYAICHI</h2>
                 <p>
                     テキストテキストテキストテキストテキストテキストテキスト<br>
@@ -46,13 +43,13 @@
     </section>
 
     <!-- Bicycle -->
-    <section class="section bicycle" id="#bicycle">
+    <section class="section bicycle" id="bicycle">
         <h1 class="section-heading">Bicycle</h1>
 
         <ul class="grid">
             <li class="grid-item">
                 <article class="card">
-                    <img src="./assets/images/bicycle1.jpg" alt="Bicycle1">
+                    <img src="./assets/images/bicycle1.jpg" alt="Image of the Bicycle1">
                     <h2>テキストタイトル</h2>
                     <p>テキストテキストテキスト</p>
                 </article>
@@ -60,7 +57,7 @@
 
             <li class="grid-item">
                 <article class="card">
-                    <img src="./assets/images/bicycle2.jpg" alt="Bicycle2">
+                    <img src="./assets/images/bicycle2.jpg" alt="Image of the Bicycle2">
                     <h2>タイトルタイトル</h2>
                     <p>テキストテキストテキスト</p>
                 </article>
@@ -68,7 +65,7 @@
 
             <li class="grid-item">
                 <article class="card">
-                    <img src="./assets/images/bicycle3.jpg" alt="Bicycle3">
+                    <img src="./assets/images/bicycle3.jpg" alt="Image of the Bicycle3">
                     <h2>タイトルタイトル</h2>
                     <p>テキストテキストテキスト</p>
                 </article>
@@ -77,6 +74,7 @@
 
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="copyright">
             <small>&copy; 2020 Profile</small>
