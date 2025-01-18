@@ -1,0 +1,13 @@
+このページの模写で勉強になったこと、気になったこと。
+・メタディスクリプションが無かったので追加する
+ <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+
+・viewportはレスポンシブデザインへの対応に必要なタグ。以下はGoogle推奨の記述方法
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+・メインコンテンツはmainタグで囲む
+・ヘッダーのnav要素はリスト（ul, li）を使う
+
+・wrapperというクラスはよく見かけるが、web界隈で使われる暗黙ルールがある？
+
+・クラスには一般的なセレクターを記述する（section-title など）
