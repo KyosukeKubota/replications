@@ -11,3 +11,6 @@
 ・wrapperというクラスはよく見かけるが、web界隈で使われる暗黙ルールがある？
 
 ・クラスには一般的なセレクターを記述する（section-title など）
+
+・横幅はそれぞれのheaderとsectionで重複した記述をせず、wrapperクラスを作ってそこに記述する
+  （headerとsection共通の設定）
