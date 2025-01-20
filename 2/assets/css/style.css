@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* 
+共通
+*/
+html{
+    font-size: 100%;
+}
+
+body{
+    color: #383e45;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 
+ヘッダー
+ */
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    text-align: center;
+    padding: 0 4%;
+}
+
+.header{
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-list img{
+    height: 20px;
+}
+
+.header-item a{
+    color: #333;
+    font-size: 14px;
+    margin: 0 20px;
+}
+
+.header-item a:hover{
+    color: #666;
+}
+
+.header-item-icon a:hover{
+    opacity:0.5;
+}
+
+/* 
+カバー
+*/
+.cover{
+    width: 100%;
+}
