@@ -140,3 +140,61 @@ News
     width: 80%;
     margin: 0;
 }
+
+/* 
+Contact
+*/
+
+#contact table{
+    width: 100%;
+}
+
+#contact tr{
+    display: flex;
+}
+
+#contact th, td{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#contact  th{
+    width: 15%;
+    color: #666;
+    text-align: left;
+}
+
+#contact  td{
+    width: 85%;
+}
+
+.input, .textarea {
+    width: 100%;
+    box-sizing: border-box; /* paddingも含めてサイズ計算 */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.input{
+    height: 100%;
+}
+
+.textarea{
+    min-width: 500px;
+    min-height: 100px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #333;
+    border: 1px solid black;
+}
