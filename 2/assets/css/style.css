@@ -109,3 +109,34 @@ Works
     height: 150px;
     width: 100%;
 }
+
+/* 
+News
+*/
+#news dl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#news dt, dd{
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 2%;
+}
+
+#news dt:last-of-type, dd:last-of-type{
+    border-bottom: none;
+}
+
+#news dt{
+    width: 20%;
+}
+
+#news dd{
+    width: 80%;
+    margin: 0;
+}
