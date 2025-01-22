@@ -43,6 +43,7 @@ li{
     height: 270px;
     margin: 0 auto;
     align-items: center;
+    padding: 0 4%;
 }
 
 .header-list{
@@ -73,6 +74,7 @@ li{
 .cover img{
     width: 100%;
     max-width: 1920px;
+    height: 420px;
     object-fit: cover;
 }
 
@@ -211,4 +213,33 @@ Contact
     align-items: center;
     background-color: #111;
     padding: 10px 20px;
+}
+
+@media(max-width: 768px){
+    /* 
+    ヘッダー
+    */
+    .header{
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .header-logo{
+        margin-top: 20px;
+    }
+
+    .header-list li{
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .header-list li:first-child{
+        margin-left: 0;
+    }
+
+    .header-item a{
+        margin: 0;
+    }
 }

@@ -3,3 +3,8 @@
 ・liで特定の要素だけcssを適用する場合は、li-first-childと指定する
 ・dl dt ddを使ったテーブルの作成
 ・dtとdlを同じ行に設置するためのcssの指定方法
+
+・@mediaで画面がはみ出すときは、元の要素に何か問題がないか確認する
+
+・pictureタグを使用する
+・画像を変更する方法は、cssでbackground-imageを指定する方法と、pictureタグを使用する方法がある

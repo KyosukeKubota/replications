@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
     <title>My Work(Copy)</title>
-
+    <!-- <link rel="icon" href="img/favicon.ico"> -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -18,10 +18,10 @@
             <h1 class="header-logo"><a href="#"><img src="./assets/images/logo.svg" alt="My Work"></a></h1>
             <nav>
                 <ul class="header-list">
-                    <li class="header-item"><a href="#About">About</a></li>
-                    <li class="header-item"><a href="#Works">Works</a></li>
-                    <li class="header-item"><a href="#News">News</a></li>
-                    <li class="header-item"><a href="#Contact">Contact</a></li>
+                    <li class="header-item"><a href="#about">About</a></li>
+                    <li class="header-item"><a href="#works">Works</a></li>
+                    <li class="header-item"><a href="#news">News</a></li>
+                    <li class="header-item"><a href="#contact">Contact</a></li>
                     <li class="header-item header-item-icon"><a href="https://www.instagram.com/"><img src="./assets/images/icon-instagram.png" alt="instagram"></a></li>
                 </ul>
             </nav>
@@ -30,7 +30,10 @@
     <main>
     <!-- カバー -->
     <div class="cover">
-        <img src="./assets/images/mainvisual-pc.jpg" alt="Cover">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./assets/images/mainvisual-sp.jpg">
+            <img src="./assets/images/mainvisual-pc.jpg" alt="Cover">
+        </picture>
      </div>
 
      <!-- About -->
