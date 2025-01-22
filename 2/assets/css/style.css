@@ -26,13 +26,13 @@ li{
 
 .wrapper{
     max-width: 960px;
-    margin: 100px auto;
+    margin: 60px auto;
     text-align: center;
     padding: 0 4%;
 }
 
 .wrapper h1{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-size: 24px;
 }
 
@@ -166,6 +166,7 @@ Contact
     width: 15%;
     color: #666;
     text-align: left;
+    font-weight: lighter;
 }
 
 #contact  td{
@@ -174,6 +175,7 @@ Contact
 
 .input, .textarea {
     width: 100%;
+    max-width: 100%;
     box-sizing: border-box; /* paddingも含めてサイズ計算 */
     border: 1px solid #ccc;
     padding: 10px;
@@ -184,7 +186,6 @@ Contact
 }
 
 .textarea{
-    min-width: 500px;
     min-height: 200px;
 }
 
@@ -216,9 +217,7 @@ Contact
 }
 
 @media(max-width: 768px){
-    /* 
-    ヘッダー
-    */
+    /* ヘッダー */
     .header{
         max-width: 100%;
         flex-direction: column;
@@ -240,6 +239,48 @@ Contact
     }
 
     .header-item a{
+        margin: 0;
+    }
+
+    /* Works */
+    #works ul{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #works img{
+        height: auto;
+    }
+
+    /* News */
+    #news dl{
+        flex-direction: column;
+    }
+
+    #news dt{
+        border-bottom: none;
+        padding-bottom: 0;
+        padding: 15px 4% 0;
+    }
+
+    #news dd{
+        padding: 0 4% 15px;
+        width: 100%;
+    }
+
+    /* Contact */
+    #contact tbody{
+        width: 100%;
+    }
+
+    #contact tr{
+        flex-direction: column;
+    }
+
+    #contact th, #contact td{
+        width: 100%;
+    }
+
+    #contact th{
         margin: 0;
     }
 }
