@@ -70,8 +70,10 @@ li{
 /* 
 カバー
 */
-.cover{
+.cover img{
     width: 100%;
+    max-width: 1920px;
+    object-fit: cover;
 }
 
 /* 
@@ -181,7 +183,7 @@ Contact
 
 .textarea{
     min-width: 500px;
-    min-height: 100px;
+    min-height: 200px;
 }
 
 .button {
@@ -197,4 +199,16 @@ Contact
     background-color: white;
     color: #333;
     border: 1px solid black;
+}
+
+/* 
+フッター
+*/
+.footer{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color: #111;
+    padding: 10px 20px;
 }
