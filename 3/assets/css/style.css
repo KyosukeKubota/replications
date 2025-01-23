@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* 共通 */
+body{
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  max-width: 1200px;
+  padding: 0 16px;
+}
