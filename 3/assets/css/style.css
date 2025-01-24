@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 共通 */
+/* COmmon */
 body{
   font-family: "Noto Sans JP", serif;
   font-optical-sizing: auto;
@@ -8,5 +8,45 @@ body{
   font-style: normal;
 
   max-width: 1200px;
-  padding: 0 16px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Header */
+.header{
+  margin-bottom: 40px;
+}
+
+.header h1{
+  margin: 10px 0;
+}
+
+.header nav{
+  position: relative;
+  inset-inline: 50%;
+  /* width: 100vw; */
+  /* margin-inline: -50vw; */
+  background-color: #333;
+}
+
+.header ul{
+  display: flex;
+  padding: 7px 0;
+}
+
+.header li{
+  margin-right: 60px;
+}
+
+.header li a{
+  font-size: 14px;
+  color: white;
 }
