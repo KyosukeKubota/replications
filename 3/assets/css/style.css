@@ -32,8 +32,8 @@ li{
 .header nav{
   position: relative;
   inset-inline: 50%;
-  /* width: 100vw; */
-  /* margin-inline: -50vw; */
+  width: 100vw;
+  margin-inline: -50vw;
   background-color: #333;
 }
 
