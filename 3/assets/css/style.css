@@ -12,8 +12,6 @@ body{
   max-width: 1200px;
   padding: 0 10px;
   margin: 0 auto;
-
-  overflow-x: hidden;
 }
 
 a{
@@ -39,7 +37,7 @@ Header
 .header nav{
   position: relative;
   inset-inline: 50%;
-  width: 100vw; /* 古いブラウザのためのフォールバック */
+  width: 100vw;
   margin-inline: -50vw;
   padding-inline: calc((100vw - 100%) / 2);
   background-color: #333;
