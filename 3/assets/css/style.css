@@ -12,6 +12,8 @@ body{
   max-width: 1200px;
   padding: 0 10px;
   margin: 0 auto;
+
+  overflow-x: hidden;
 }
 
 a{
@@ -37,7 +39,7 @@ Header
 .header nav{
   position: relative;
   inset-inline: 50%;
-  width: 100vw;
+  width: 100vw; /* 古いブラウザのためのフォールバック */
   margin-inline: -50vw;
   padding-inline: calc((100vw - 100%) / 2);
   background-color: #333;
@@ -106,7 +108,7 @@ Pickup
 /* コンテンツ */
 .contents{
   display: flex;
-  margin-bottom: 100px;
+  margin: 80px 0 100px;
 }
 
 /* 
@@ -204,7 +206,7 @@ Pickup
 /* 
 フッター
 */
-.footer{
+.footer ul{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -217,4 +219,28 @@ Pickup
 
 .footer p{
   font-size: 14px;
+}
+
+.footer-menu ul{
+  display: block;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.footer-menu li{
+  border-bottom: 1px solid #333;
+  padding: 15px 5%;
+  font-size: 14px;
+}
+
+.footer-menu li:last-of-type{
+  border-bottom: none;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
