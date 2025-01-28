@@ -221,6 +221,7 @@ Pickup
 
 .footer p{
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .footer-menu ul{
@@ -240,6 +241,24 @@ Pickup
   border-bottom: none;
 }
 
+.footer ul.footer-links{
+  display: block;
+  font-size: 14px;
+}
+
+.footer ul.footer-links .arrow::before{
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 0 6px 8px;
+  border-color: transparent transparent transparent #333;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -6px;
+}
+
 .copyright{
   text-align: center;
   font-size: 14px;
@@ -250,6 +269,10 @@ Pickup
 @media(max-width: 768px){
   body{
     width: 100%;
+  }
+
+  nav {
+    overflow-x: scroll;
   }
 
   .pickup{
