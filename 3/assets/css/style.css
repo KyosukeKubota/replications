@@ -246,6 +246,13 @@ Pickup
   font-size: 14px;
 }
 
+.footer ul.footer-links .arrow{
+  position: relative;
+  display: inline-block;
+  padding-left: 12px;
+  color: #333;
+}
+
 .footer ul.footer-links .arrow::before{
   content: '';
   width: 0;
