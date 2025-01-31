@@ -22,15 +22,35 @@ li{
   list-style-type: none;
 }
 
+section{
+  margin-top: 20px;
+}
+
+.cover-fixed{
+  height: 300px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-title{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 30px;
+}
+
 /* 
 Header
 */
-header{
+#header{
   position: relative;
   height: 100vh;
   background-size: cover;
   background-position: center bottom;
-  background-image: url(/4/assets/images/mainvisual.jpg);
+  background-image: url(../images/mainvisual.jpg);
 }
 
 nav a{
@@ -60,4 +80,28 @@ nav li{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+/*
+MENU
+ */
+.menu-img{
+  background-image: url(../images/menu.jpg);
+  position: relative;
+}
+
+/*
+About
+*/
+.about-img{
+  background-image: url(../images/about.jpg);
+  position: relative;
+}
+
+/*
+Location
+*/
+.location-img{
+  background-image: url(../images/location.jpg);
+  position: relative;
 }
