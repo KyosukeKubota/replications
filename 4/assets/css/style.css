@@ -1,5 +1,63 @@
 @charset "UTF-8";
 
+/* 
+Common
+*/
 body{
-  font-family: "Helvetica Neue", "Arial", H"iragino Sans", "Hiragino, Kaku", "Gothic, ProN", "Meiry", sans-serif;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino, Kaku", "Gothic, ProN", "Meiry", sans-serif;
+}
+
+.wrapper{
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: auto;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* 
+Header
+*/
+header{
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center bottom;
+  background-image: url(/4/assets/images/mainvisual.jpg);
+}
+
+nav a{
+  color: #fff;
+  filter: drop-shadow(2px 2px 2px #333);
+  font-weight: bold;
+  font-size: 14px;
+  transition: .3s;
+}
+
+nav li a:hover {
+  color: #e03131;
+}
+
+nav ul{
+  display: flex;
+  justify-content: end;
+  padding: 20px 30px 30px;
+}
+
+nav li{
+  margin-right: 30px;
+}
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }

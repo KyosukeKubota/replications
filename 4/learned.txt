@@ -1,2 +1,4 @@
 このページの模写で勉強になったこと、気になったこと。
-・
+・mainviewを画面いっぱいにするにはbackground-size: coverを使う
+・height: 100vhで縦方向いっぱいに画像を表示できる
+・画像を重ねるには親要素にrelative, 子要素にabsoluteをつける
