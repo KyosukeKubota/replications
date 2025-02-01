@@ -2,3 +2,6 @@
 ・mainviewを画面いっぱいにするにはbackground-size: coverを使う
 ・height: 100vhで縦方向いっぱいに画像を表示できる
 ・画像を重ねるには親要素にrelative, 子要素にabsoluteをつける
+・下の要素を使って、見出しの背景がスクロールするごとに変わる演出ができる
+  background-attachment: fixed;
+  background-size: cover;
