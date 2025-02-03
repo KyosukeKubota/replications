@@ -274,3 +274,12 @@ Location
 .store-info{
   font-size: 14px;
 }
+
+/*
+Footer
+*/
+.copyright{
+  font-size: 10px;
+  text-align: center;
+  margin: 10px;
+}
