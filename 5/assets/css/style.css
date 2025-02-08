@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* 
+Common
+*/
+
+.wrapper-top{
+  max-width: 1360px;
+  padding: 0, 40px;
+  margin: 0 auto;
+}
+
+.wrapper-about,
+.wrapper-company{
+  max-width: 600px;
+}
+
+.wrapper-details{
+  max-width: 800px;
+}
+
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* 
+Header
+*/
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul{
+  display: flex;
+}
