@@ -3,7 +3,6 @@
 /* 
 Common
 */
-
 .wrapper-top{
   width: 100%;
   max-width: 1360px;
@@ -33,12 +32,24 @@ li{
 Header
 */
 header{
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  z-index: 10;
+  height: 80px;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 header ul{
   display: flex;
+}
+
+header img{
+  height: 20px;
 }
 
 /* 
@@ -50,11 +61,59 @@ main{
 
 #products{
   width: 100%;
+  padding-top: 120px;
+  margin-bottom: 120px;
 }
 
-#products ul{
-  max-width: 100%;
+#products h1{
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.product-list{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 35px;
+}
+
+.product-list p{
+  font-size: 12px;
+}
+
+.product-list img{
+  width: 100%;
+  transition: .75s;
+  margin-bottom: 4px;
+}
+
+.product-list img:hover{
+  opacity: 70%;
+}
+
+.view-more{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Footer */
+#footer{
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#footer ul{
+  display: flex;
+  font-size: 12px;
+}
+
+#footer li{
+  margin-right: 30px;
+}
+
+#footer small{
+  font-size: 10px;
 }
