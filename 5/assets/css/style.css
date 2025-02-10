@@ -61,14 +61,8 @@ main{
 
 #products{
   width: 100%;
-  padding-top: 120px;
+  padding-top: 80px;
   margin-bottom: 120px;
-}
-
-#products h1{
-  font-weight: normal;
-  font-size: 14px;
-  margin-bottom: 30px;
 }
 
 .product-list{
@@ -116,4 +110,28 @@ main{
 
 #footer small{
   font-size: 10px;
+}
+
+@media(max-width: 900px){
+  .product-list{
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .product-list li{
+    margin-bottom: 20px;
+  }
+
+  #footer {
+    flex-direction: column;
+  }
+
+  .view-more{
+    margin-top: 15px;
+  }
+
+  #products{
+    margin-bottom: 100px;
+  }
 }
