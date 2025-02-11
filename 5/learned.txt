@@ -1,0 +1,5 @@
+このページの模写で勉強になったこと、気になったこと。
+
+・<a href="mailto:xxxx@xxx.xxx?subject=お問い合わせ">CONTACT</a>
+↑これでメールを開くことができる。
+

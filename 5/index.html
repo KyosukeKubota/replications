@@ -16,14 +16,20 @@
     <h1>
       <a href="#"><img src="./assets/images/logo.svg" alt="Firniture Design"></a>
     </h1>
-    <nav>
-      <ul>
-        <li><a href="#">PRODUCTS</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">COMPANY</a></li>
-        <li><a href="#">CONTACT</a></li>
+    <nav id="navi">
+      <ul class="navi-menu">
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="company.html">COMPANY</a></li>
+        <li><a href="mailto:xxxx@xxx.xxx?subject=お問い合わせ">CONTACT</a></li>
       </ul>
     </nav>
+
+    <div class="toggle_btn">
+      <span></span>
+      <span></span>
+    </div>
+
   </header>
 
   <!-- Main -->
@@ -106,5 +112,7 @@
       </ul>
       <small>&copy; Furniture Design</small>
     </footer>
+    <script src="./assets/js/app.js"></script>
+    <!-- jsはロードに時間がかかると白画面が続くので、なるべく最後にロードする -->
 </body>
 </html>

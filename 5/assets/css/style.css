@@ -44,8 +44,16 @@ header{
   right: 0;
 }
 
-header ul{
-  display: flex;
+#navi{
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  color: #fff;
+  padding: 36px 50px;
+  transition: all 0.5s;
+  z-index: 20;
+  /* opacity: 0; */
 }
 
 header img{
