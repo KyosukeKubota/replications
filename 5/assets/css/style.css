@@ -55,6 +55,12 @@ header{
   z-index: 20;
   opacity: 0;
 }
+#navi a {
+  color: #fff;
+}
+#navi li {
+  margin-bottom: 14px;
+}
 
 header img{
   height: 20px;
@@ -91,6 +97,14 @@ header img{
 
 .toggle_btn span:nth-child(2){
   bottom: 10px;
+}
+
+.open .toggle_btn span:nth-child(1){
+  transform: translateY(4px) rotate(-45deg);
+}
+
+.open .toggle_btn span:nth-child(2){
+  transform: translateY(-4px) rotate(45deg);
 }
 
 .open .toggle_btn span{
