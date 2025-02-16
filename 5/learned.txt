@@ -3,3 +3,4 @@
 ・<a href="mailto:xxxx@xxx.xxx?subject=お問い合わせ">CONTACT</a>
 ↑これでメールを開くことができる。
 
+・contentはmain部分のレイアウト
