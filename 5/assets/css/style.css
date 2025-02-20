@@ -3,6 +3,10 @@
 /*****************************************************
 Common
 ******************************************************/
+body{
+  position: relative;
+  min-height: 100vh;
+}
 .wrapper{
   width: 100%;
   padding: 0 40px;
@@ -31,7 +35,7 @@ li{
 .content{
   width: 100%;
   padding-top: 120px;
-  padding-bottom: 160px;
+  padding-bottom: 120px;
   color: #333;
 }
 
@@ -147,8 +151,12 @@ header img{
 #footer{
   display: flex;
   justify-content: space-between;
+  position: absolute;
   color: #333;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  bottom: 20px;
+  left: 0;
+  right: 0;
 }
 
 #footer ul{
@@ -197,6 +205,15 @@ Top
   margin-top: 40px;
   text-align: center;
   font-size: 14px;
+}
+
+/*****************************************************
+About
+******************************************************/
+.about-paragraph{
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 30px;
 }
 
 /*****************************************************

@@ -4,3 +4,12 @@
 ↑これでメールを開くことができる。
 
 ・contentはmain部分のレイアウト
+
+・コンテンツの少ないページでフッターが上のほうに来てしまう問題の対処法
+- bodyで、
+    position: relative;
+    min-height: 100vh;
+  を設定
+- footerで、
+    position: absolute;
+  を設定
